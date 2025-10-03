@@ -1,32 +1,24 @@
 [
   {
     "tabTitle": "Participants",
-    "chartsSection": {
-      "title": "Charts",
-      "enabled": true,
-      "showLegends" : {
-        "enabled" : true
-      },
-      "charts": {
-        "project_id": { "chartType": "count", "title": "Projects" },
-        "study_id": { "chartType": "count", "title": "Studys" },
-        "primary_site": { "chartType": "bar", "title": "Primary Site" },
-        "disease_type": { "chartType": "horizontalStacked", "title": "Disease Type" },
-        "sex": { "chartType": "fullPie", "title": "Sex" },
-        "race": { "chartType": "bar", "title": "Race" },
-        "ethnicity": { "chartType": "horizontalStacked", "title": "Ethnicity" },
-        "study_site": { "chartType": "pie", "title": "Clinical Site" },
-        "drinking_frequency": { "chartType":"bar", "title": "Drinking Frequency in the past year" },
-        "drinks_per_day": { "chartType":"bar", "title": "Drinks per Day in the past year" },
-        "frequency_of_heavy_drinking": { "chartType":"bar", "title": "Frequency Of Heavy Drinking in the past year" },
-        "aki_status": { "chartType": "fullPie", "title": "AKI Status" },
-        "days_90_survival": { "chartType":"fullPie", "title": "Days 90 Survival" },
-        "days_180_survival": { "chartType":"fullPie", "title": "Days 180 Survival" },
-        "days_90_aki": { "chartType": "pie", "title": "Days 90 AKI" },
-        "days_180_aki": { "chartType":"pie", "title": "Days 180 AKI" }
-      }
+    "charts": {
+      "project_id": { "chartType": "count", "title": "Projects" },
+      "study_id": { "chartType": "count", "title": "Studys" },
+      "primary_site": { "chartType": "bar", "title": "Primary Site" },
+      "disease_type": { "chartType": "bar", "title": "Disease Type" },
+      "sex": { "chartType": "fullPie", "title": "Sex" },
+      "race": { "chartType": "bar", "title": "Race" },
+      "ethnicity": { "chartType": "pie", "title": "Ethnicity" },
+      "study_site": { "chartType": "pie", "title": "Clinical Site" },
+      "drinking_frequency": { "chartType":"bar", "title": "Drinking Frequency in the past year" },
+      "drinks_per_day": { "chartType":"bar", "title": "Drinks per Day in the past year" },
+      "frequency_of_heavy_drinking": { "chartType":"bar", "title": "Frequency Of Heavy Drinking in the past year" },
+      "aki_status": { "chartType": "fullPie", "title": "AKI Status" },
+      "days_90_survival": { "chartType":"fullPie", "title": "Days 90 Survival" },
+      "days_180_survival": { "chartType":"fullPie", "title": "Days 180 Survival" },
+      "days_90_aki": { "chartType": "pie", "title": "Days 90 AKI" },
+      "days_180_aki": { "chartType":"pie", "title": "Days 180 AKI" }
     },
-
     "filters": {
       "tabs": [
         {
