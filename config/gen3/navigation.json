@@ -6,7 +6,7 @@
       "navigationPanel": "bg-base-max text-primary"
     },
     "logo": {
-      "src": "/icons/uf_logo.png",
+      "src": "/icons/uf_logo.svg",
       "width": 240,
       "height": 120,
       "href": "/"
